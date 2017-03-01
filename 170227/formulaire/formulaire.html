@@ -35,9 +35,126 @@
 			<input type="checkbox" name="choix"> Fraise	
 			<input type="checkbox" name="choix" checked> Poire	
 			</p>
+			
+			<label for="ville">Ville</label>
+			<input type="text" id="ville" name="ville" list="france" />
+			<datalist id="france">
+				<option>Paris</option>
+				<option>Marseille</option>
+				<option>Lyon</option>
+			</datalist><br /><br :>
+			
+			<label for="cp">Code Postal</label>
+			<input type="text" id="cp" name="cp" maxlength="5" pattern="[0-9]{5}" title="5 chiffres requis entre 0 et 9" /><br /><br />
+			
+			<label for="adresse">Adresse</label>
+			<textarea id="adresse" name="adresse" rows="4" cols="21"></textarea><br /><br />
+			
+			<label for="datedenaissance">Date de naissance</label>
+			<input type="date" id="datedenaissance" name="datedenaissance" /><br /><br />
+			
+			<label for="jauge">Jauge</label>
+			<input type="range" min="25" max="50" value="26" id="jauge" /><br /><br />
+			
+			<label for="telephone">Téléphone</label>
+			<input type="tel" pattern="[0-9]{10}" id="telephone" name="telephone" maxlength="10"/><br /><br />
+			
+			<label for="recherche">Recherche</label>
+			<input type="text" pattern="[a-zA-Z0-9.-_]+" title="caractères autorisés : a-zA-Z0-9.-_" id="recherche" name="recherche" /><br /><br />
+			
+			<label for="couleur">Couleur</label>
+			<input type="color" id="couleur" name="couleur" /><br /><br />
+			
+			<label for="avatar">Avatar</label>
+			<input type="file" id="avatar" name="avatar" multiple /><br /><br />
+			
+			<input type="hidden" id="cache" name="cache" />
+			
+			<label for="nom">Nom</label>
+			<input type="text" id="nom" name="nom" value="test" disabled /><br /><br /> 
+			
+			<input type="submit" name="inscription" value="S'inscrire" />
+			<input type="reset" name="efface" value="recommencer" />
 		</form>
 	</body>
 </html>
+<!--
+method: comment faire circuler les données ? post, get.
+action : url de destination
+enctype: multipart-data/form: ppur envoyer des fichiers
+label = etiquette(indication)
+for = nom relié au for
+textarea = zone de saisie - rows: vertical, cols : horizontal
+input  = élément du formulaire
+	id = nom relié au for
+	type = text - case de saise
+	type = password - cas de saisie cryptée
+	type = email - case de saisie au format email
+	type =file - upload de fichiers
+	type = checkbox - case à cocher
+	type = radio - case à cocher unique
+	type  =hidden - champ caché
+	list = permet de s'alimenter de suggestion avec une liste
+	name = nom pour futur récupération en PHP
+	required = permet de rendre le champs obligatoire
+	disabled  =désactive la saisie
+	placeholder = indication présaisie
+	maxlength = longuer maximum
+	pattern = expression régulière avec liste de caractères autorisés - title permet de personnaliser le message d'erreur dans l'infobulle
+	select = liste déroulante
+	option = option
+	datalist = contient la liste d'option en cas de suggstion demandé dans l'attribu list
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
