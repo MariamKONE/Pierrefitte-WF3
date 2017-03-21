@@ -1,0 +1,11 @@
+body{
+	background: #000000 url(fond2.jpg) no-repeat;
+	background-size: cover;
+}
+
+.contenu{
+	background: linear-gradient(#f6eadd, #f9dac3);
+	width: 800px;
+	height: 500px;
+	margin: auto;
+}

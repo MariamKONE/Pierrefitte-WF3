@@ -1,0 +1,174 @@
+/***************** Général **********************/
+@font-face {
+    font-family: "Cabin";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Cabin Regular"), local("Cabin-Regular"), url("https://themes.googleusercontent.com/static/fonts/cabin/v4/JEgmtEDzc-IH8jBshQXrYA.woff") format("woff");
+}
+h1,h2,h3,h4,h5,h6,p,a,ul,li{
+margin: 0;
+padding: 0;
+text-decoration: none;
+}
+body{
+font-family: 'Cabin';
+margin: 0;
+}
+.conteneur{
+width: 1000px;
+background: #fff;
+margin: 0 auto;
+}
+/***************** Général **********************/
+/***************** Haut **********************/
+header{
+height: 100px;
+/*background: #f56036;*/
+border-bottom: 1px solid #2F7FD9;
+}
+.haut-gauche{
+float: left;
+width: 200px;
+height: 100px;
+}
+.haut-gauche    img{
+margin: 7px 0 0 20px;
+}
+.haut-gauche    img,  .haut-gauche  h1{ float: left; }
+.haut-gauche  h1{
+font-size: 20px;
+color: #2F7FD9;
+margin: 20px;
+}
+.haut-milieu{
+/*background: #7f7f70; */
+float: left;
+width: 730px;
+height: 40px;
+padding-top: 60px;
+}
+.haut-milieu    h1{
+text-align: center; /* alignement horizontal */
+line-height: 100px; /* alignement vertical (interligne) */
+letter-spacing: 3px; /* espacement des lettres */
+font-style: italic; /* Style: italic */
+}
+.haut-droit{
+float: left;
+/*background: #e6e66e;*/
+width: 70px;
+height: 100px;
+font-size: 11px;
+}
+.haut-droit  a{
+color: #000;
+float: right;
+margin: 15px 0 0 10px;
+}
+/***************** Haut **********************/
+/***************** Menu **********************/
+
+/***************** Menu **********************/
+nav{
+height: 35px;
+margin: 0 0 0 10px;
+}
+nav   a{
+float: left; /* flottant */
+color: #000;
+padding: 0 15px; /* marge intérieur */
+height: 35px; /* hauteur */
+line-height: 35px; /* interligne */
+}
+nav   a:hover{ /* en cas de survol sur un lien */
+background: #2F7FD9;
+color: #fff;
+border-radius: 7px;
+}
+
+/*-----------------------------------------------------------------------------*/
+/***************** Milieu **********************/
+section{}
+.milieu{ padding: 33px;  }
+.milieu  h2{
+text-align: center;
+color: #2F7FD9;
+background: url(../img/fleche_gauche.png) left top no-repeat;
+}
+.milieu-haut{
+height: 255px;
+/* background: #abcdef; */
+}
+.milieu-gauche{
+float: left;
+width: 480px;
+padding: 10px;
+background: url(../img/degrade.jpg)  repeat-x;
+/* background: #00963f; */
+}
+.milieu-gauche   p.fort{
+font-size: 20px;
+line-height: 30px;
+}
+.milieu-droit{
+float: left;
+width: 480px;
+padding: 10px;
+background: url(../img/degrade.jpg) repeat-x;
+/* background: #c0c0c0; */
+}
+iframe{
+margin: 15px 0 0 0;
+}
+.contact{
+padding: 10px;
+text-align: center;
+color: #fff;
+font-size: 20px; 
+border-radius: 15px;
+background: #383838;
+width: 432px;
+margin: 20px 0;
+}
+.milieu-gauche  img{ float: left; margin: 0 7px 25px 0; }
+.milieu-gauche  h2{ margin: 30px 0 25px 0 ;  }
+.milieu-droit h2{ margin: 0 0 10px 0 ;  }
+.milieu-gauche  h2,  .milieu-droit   h2{color: #2F7FD9;}
+
+.actu{
+/*background: #f32f98;*/
+height: 120px;
+text-align: justify;
+}
+.milieu-droit  iframe, .milieu-droit  div {
+float: right;
+}
+.milieu-droit  li{
+margin: 17px 0 17px 25px;
+}
+/***************** Milieu **********************/
+/***************** Bas **********************/
+footer{
+height: 60px;
+padding: 20px 0 0 0;
+background: #383838;
+text-align: center;
+border-top: 1px solid #2F7FD9;
+}
+footer  a{
+color: #2F7FD9;
+margin: 0 20px 0 0;
+}
+footer  p{
+color: #fff;
+}
+/***************** Bas **********************/
+.clear{
+clear: both;
+}
+.bleu{
+color: #2F7FD9;
+}
+.gras{
+font-weight: bold;
+}

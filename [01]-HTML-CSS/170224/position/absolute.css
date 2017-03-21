@@ -1,0 +1,41 @@
+p{
+	margin: 0;
+}
+
+.orange{
+	color: #ff9c00;
+	position: absolute;
+	font-weight: bold;
+	/* bottom: 0; */
+	/* right: 0; */
+}
+
+div{
+	border: 5px solid #ccc;
+}
+
+/* la position absolute redéfinit l'emplacement de la zone par rapport à la fenêtre. Ainsi en utilisant top : 50% , nous écartons de 50% du haut du site  
+avec top/left/right/bottom on gère la position de l'élément et non pas margin-left, margin-right, margin-top, margin-bottom
+*/ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

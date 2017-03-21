@@ -1,0 +1,20 @@
+fieldset{
+	width:250px;
+}
+
+fieldset:first-of-type{
+	float:left;
+}
+
+select{
+	width: 100px;
+}
+
+div{
+	float: left;
+	width: 50%;
+}
+
+#submit{
+	margin: 0 0 0 250px;
+}

@@ -1,0 +1,15 @@
+ul.fruit{
+	list-style-type: none;
+}
+
+ul.fruit li{
+	float: left;
+	margin: 15px;
+	background: url(fleche.gif) left center no-repeat;
+	padding: 0 0 0 17px;
+}
+
+hr{
+ clear: both;
+ 
+}
