@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Et Ou logiques</title>
+    <script type="text/javascript" src="script.js"></script>
+    <style media="screen">
+        table, th, td{
+            border-collapse: collapse;
+            border: 1px solid;
+        }
+        th, td{
+            padding: 1vw;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- table{<h3>ET LOGIQUE - &&</h3>}>tr>th{a}+th{b}+th{a ET b}^tr>td{0}+td{0}+td{0}^tr>td{0}+td{1}+td{0}^tr>td{1}+td{0}+td{0}^tr>td{1}+td{1}+td{1} -->
+    <table>
+        <h3>ET LOGIQUE - &&</h3>
+        <tr>
+            <th>a</th>
+            <th>b</th>
+            <th>a ET b</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+    </table>
+
+    <!-- table{<h3>OU LOGIQUE - ||</h3>}>tr>th{a}+th{b}+th{a OU b}^tr>td{0}+td{0}+td{0}^tr>td{0}+td{1}+td{1}^tr>td{1}+td{0}+td{1}^tr>td{1}+td{1}+td{1} -->
+    <table>
+        <h3>OU LOGIQUE - ||</h3>
+        <tr>
+            <th>a</th>
+            <th>b</th>
+            <th>a OU b</th>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+    </table>
+
+</body>
+</html>

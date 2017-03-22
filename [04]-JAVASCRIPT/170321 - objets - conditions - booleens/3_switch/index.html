@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Switch</title>
+</head>
+
+<body>
+
+<h1>Le Switch</h1>
+<p>Remplace les structures de if/else If ou il y a beaucoup de cas (else if) à vérifier</p>
+<code>
+var prenom;
+if(prenom=="James") {
+ alert('Salut James');
+}
+
+else if(prenom=="Lakhdar") {
+	alert('Salut Lakhdar');
+}
+// ...
+else {
+
+}
+</code>
+
+
+<p>
+var prenom;<br />
+switch(prenom) {</p>
+<p>
+    case 'Fred' :<br />
+    alert('Hello Fred');<br />
+    break;<br /><br />
+
+    case 'Lakhdar':<br />
+    alert('Hello Lakhdar');<br />
+    break;<br /><br />
+
+    case 'Annissa':<br />
+    alert('Hello Annissa');<br /><br />
+
+    default:<br />
+    alert('Tu n\'as pas de prénom');<br />
+}<br />
+</p>
+
+<h1>Exercice</h1>
+<h3>## Enoncé<h3>
+
+<p>L'utilisateur saisit un nombre puis un autre ainsi que l'opération mathématique souhaitée, le résultat s'affiche en HTML.</p>
+
+<h3>## Remarques</h3>
+
+<p>* Les nombres saisis peuvent être à virgule.</p>
+<p>* La calculatrice doit accepter les quatres opérations mathématiques de base et rejeter toutes les autres.</p>
+<p>* L'utilisateur doit pouvoir autant saisir le nom de l'opération que l'opérateur correspondant : + - * /</p>
+<p>* La division par zéro n'existe pas, il va falloir gérer ce cas…</p>
+<p>* Il faut répéter le moins de code possible, notamment le code d'affichage du résultat</p>
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

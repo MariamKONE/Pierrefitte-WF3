@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>le DOM</title>
+    </head>
+    <body>
+        <h1 id="wow">SELECTIONNER DES ELEMENTS DE LA PAGE HTML AVEC JS</h1>
+            <h2>le DOM (Document Object Model)- </h2>
+
+            <h3>1/ document.getElementById()</h3>
+                <p>Recherche dans l'arbre DOM d'une balise ayant l'id spécifié.</p>
+
+                <p class="toto">document.getElementById() renvoie un objet DOM manipulable en JavaScript correspondant à la balise trouvée.</p>
+                <p> Sinon la méthode renvoie la valeur spéciale null.</p>
+
+
+            <h3>2/ document.getElementsByClassName()</h3>
+                <p>Recherche dans l'arbre DOM de toutes les balises ayant la class spécifiées.</p>
+                <p class="toto">document.getElementById() renvoie un objet DOM manipulable en JavaScript correspondant à la balise trouvée.</p>
+                <p>Sinon la méthode renvoie la valeur spéciale null.</p>
+
+            <h3>3/ document.getElementsByTagName()</h3>
+                <p>Recherche dans l'arbre DOM de toutes les balises ayant la balise spécifiée.</p>
+                <p class="toto">document.getElementById() renvoie un objet DOM manipulable en JavaScript correspondant à la balise trouvée.</p>
+                <p>Sinon la méthode renvoie la valeur spéciale null.</p>
+
+            <h3>4/ document.querySelector()</h3>
+                <p>Recherche dans l'arbre DOM de la 1ere balise rencontrée qui a l'id, la class ou le tag spécifié.</p>
+                <p class="toto">document.getElementById() renvoie un objet DOM manipulable en JavaScript correspondant à la balise trouvée.</p>
+                <p>Sinon la méthode renvoie la valeur spéciale null.</p>
+
+            <h3>Modifier le contenu d'une balise</h3>
+                <ul>
+                    <li>textContent = ''; => remplace le contenu de la balise par du texte</li>
+                    <li>innerHTML = ''; => remplace le contenu de la balise par de l'HTML</li>
+                </ul>
+
+        <h1>AJOUTER OU SUPPRIMER DES CLASS D'UN ELEMENT</h1>
+            <ul>
+                <li>
+                    <p>elt.classList.add('uneclass');</p>
+                    <p>Ajoute une class à l'élément sélectionné</p>
+                </li>
+                <li>
+                    <p>elt.classList.remove();</p>
+                    <p>Remove une class à l'élément sélectionné</p>
+                </li>
+                <li>
+                    <p>elt.classList.toggle();</p>
+                    <p>Ajoute une classe si elle n'existe pas et la retire si elle existe à l'élément</p>
+                </li>
+            </ul>
+
+        <script type="text/javascript" src="script.js"></script>
+    </body>
+</html>
